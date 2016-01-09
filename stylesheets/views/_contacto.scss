@@ -1,0 +1,118 @@
+.header{
+  background: url(../img/header-contact.jpg) no-repeat;
+  background-size: cover;
+  height: 70%;
+  display: table;
+  width: 100%;
+    .text-vertical-center{
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      h1{
+          color: tomato;
+          font-family: 'Lobster', cursive;
+          font-size: 60px;
+      }
+    }
+}
+
+
+#text{
+    background-color: rgb(242, 242, 242);
+    padding-top: 65px;
+    font-size: 22px;
+    padding-bottom: 35px;
+    p{
+    font-family: 'Roboto', sans-serif;
+    }
+}
+
+#contacto{
+    padding: 70px 0px;
+    .info{
+        background-color: rgb(231, 229, 229);
+        margin-top: 25px;
+        padding: 30px 0;
+    }
+    h2{
+      text-align: left;
+      margin-bottom: 30px; 
+      font-family: 'Lobster Two', cursive;   }
+    p{
+      line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    }
+    button{
+        margin-top: 30px;
+        padding: 7px 52px;
+        font-size: 20px;
+        background-color: tomato;
+    }
+    .form-group{
+      margin-bottom: 20px;
+    }
+}
+
+#contact{
+    background: url(../img/contact.jpg) no-repeat;
+    padding-top: 70px;
+    background-size: cover;
+    h2{
+      font-family: 'Lobster Two', cursive;
+      margin-top: 30px;
+    }
+  .imagen{
+    width: 20%;
+    display: inline-block;
+    img{
+      width: 100%;
+      border-radius: 50%;
+    }
+  }
+  p{
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 50px;
+    font-size: 20px;
+  }
+  button{
+            background-color: transparent;
+            border: 2px solid white ;
+            border-radius: 0;
+            padding: 7px 50px;
+            font-size: 20px;
+            color: white;
+             }
+}
+
+#redes{
+  background-color: tomato;
+  padding: 70px 0;
+  h2{
+
+      font-family: 'Lobster Two', cursive;
+      font-size:40px;
+  }
+  .redes{
+        padding-top: 20px;
+        padding-bottom: 20px;
+      .rs{
+        width: 6%;
+        display: inline-block;
+        img{
+          width: 100%;
+        }
+      }
+    }
+}
+
+.rs:hover{
+  background-color: rgb(192, 70, 49);
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 450px){
+  #redes .redes .rs {
+    width: 20%;
+  }
+}
