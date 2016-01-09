@@ -5880,6 +5880,12 @@ footer {
     padding: 14px 0;
     font-family: 'Roboto', sans-serif;
     font-size: 18px; }
+    footer .imagen {
+      width: 20%;
+      display: inline-block; }
+      footer .imagen img {
+        width: 100%;
+        border-radius: 50%; }
   footer .btn-custom {
     background-color: tomato;
     border: 2px solid white;
